@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: #f5fff5;
+  color: #2e4d2e;
+  line-height: 1.6;
+}
+header{
+  background-color: #22f799;
+  text-align: center;
+  padding: 20px;
+}
+header h1{
+  margin-bottom: 10px;
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+nav a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+nav a:hover{
+  text-decoration: underline;
+}
+.hero{
+  background: url(https://www.shutterstock.com/image-photo/sea-cuisine-professional-cook-prepares-600nw-1387710602.jpg);
+  padding: 100px 20px;
+  text-align: center;
+  color: white;
+  background-attachment: fixed;
+}
+.hero h2{
+  margin-bottom: 10px;
+  font-size: 2.5rem;
+}
+.line1{
+  color: red;
+  background-color: orangered;
+  height: 5px;
+  width: 100%;
+  margin-top: 15px;
+}
+.Favorite{
+  background-color: #691;
+  text-align: left;
+}
+.Favorite h2{
+  color: black;
+  background-color: antiquewhite;
+}
+.Favorite ul {
+  background-color: antiquewhite;
+  padding: 20px;
+  list-style-type: decimal;  /* Corrected from 'ol' */
+}
+
+.myimg {
+  text-align: center;
+  padding: 40px 20px;
+}
+.gallery{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px,1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+.gallery img{
+  width: 100%;
+  border-radius: 10px;
+}
+.gallery img:hover{
+  transform: scale(1.05);
+}
+
+.forms {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.forms form {
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.forms input, .forms textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+.forms button {
+  padding: 10px;
+  background-color: #22f799;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.forms button:hover {
+  background-color: #1ccf80;
+}
